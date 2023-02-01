@@ -1,7 +1,7 @@
 .container.contact {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 800px;
+    width: 50rem;
 }
 
 .container.contact label {
@@ -20,6 +20,7 @@
     padding-inline: 15px;
     outline: none;
     font-size: 14px;
+    resize: none;
 }
 
 .container.contact textarea {
